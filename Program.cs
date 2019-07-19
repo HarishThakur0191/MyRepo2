@@ -71,7 +71,7 @@ namespace SeleniumProject
                     }
                     else
                     {
-                        Console.WriteLine("header name not available");
+                        Console.WriteLine("Header name is not available");
                     }
                 }
             }
