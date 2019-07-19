@@ -51,10 +51,6 @@ namespace SeleniumProject
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
             wait.Until(ExpectedConditions.ElementExists(By.Id("login")));
 
-
-
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
-
             driver.Close();
 
         }
