@@ -52,7 +52,6 @@ namespace SeleniumProject
             wait.Until(ExpectedConditions.ElementExists(By.Id("login")));
 
             driver.Close();
-
         }
 
         public static int getIndex(IWebDriver driver, string headerName)
